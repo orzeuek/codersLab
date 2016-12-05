@@ -1,0 +1,17 @@
+<phpunit
+        bootstrap="tests/bootstrap.php"
+>
+    <testsuites>
+        <testsuite name="Sample Test Suite">
+            <directory>.TDD-A1/sample/tests/</directory>
+        </testsuite>
+    </testsuites>
+
+    <testsuites>
+        <testsuite name="Sample Test Suite">
+            <directory>.TDD-B1/sample/tests/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
+
+
