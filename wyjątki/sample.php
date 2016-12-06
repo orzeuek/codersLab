@@ -26,7 +26,7 @@ function divide($divident, $divisor){
 
 try {
     try{
-        var_dump(divide(2,0));
+        var_dump( divide(2,0) );
     } catch (DivisionByZeroException $e){
         file_put_contents("log.log", $e->getMessage().PHP_EOL);
         throw $e;
