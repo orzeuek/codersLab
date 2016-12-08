@@ -1,15 +1,10 @@
-<phpunit
-        bootstrap="tests/bootstrap.php"
->
+<phpunit>
     <testsuites>
-        <testsuite name="Sample Test Suite">
-            <directory>.TDD-A1/sample/tests/</directory>
+        <testsuite name="tests1">
+            <directory>./TDD-A1/sample/tests/</directory>
         </testsuite>
-    </testsuites>
-
-    <testsuites>
-        <testsuite name="Sample Test Suite">
-            <directory>.TDD-B1/sample/tests/</directory>
+        <testsuite name="tests2">
+            <directory>./TDD-B1/sample/tests/</directory>
         </testsuite>
     </testsuites>
 </phpunit>
