@@ -15,7 +15,7 @@ class DbUnitTest extends PHPUnit_Extensions_Database_TestCase
     protected function getConnection()
     {
         if(empty($this->pdo)){
-            $this->pdo = new PDO;
+            $this->pdo = new PDO("sqlite::memory:");
             $this->pdo->exec("CREATE TABLE users(id, user);");
         }
 

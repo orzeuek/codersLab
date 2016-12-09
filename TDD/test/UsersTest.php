@@ -2,9 +2,6 @@
 
 require_once __DIR__."/../src/Users.php";
 
-/**
- * @author Rafał Orłowski <rafal.orlowski@assertis.co.uk>
- */
 class UsersTest extends PHPUnit_Extensions_Database_TestCase
 {
 

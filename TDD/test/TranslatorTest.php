@@ -1,8 +1,10 @@
 <?php
 
+use PHPUnit\Framework\TestCase;
+
 require __DIR__."/../src/Translator.php";
 
-class TranslatorTest extends \PHPUnit\Framework\TestCase
+class TranslatorTest extends TestCase
 {
 
     private $translator;
